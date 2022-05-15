@@ -1,0 +1,86 @@
+html {
+    font-family: 'PT Sans', sans-serif;
+}
+
+header {
+    margin: 0;
+    padding: 30px;
+    background-color: #666;
+    color: lightgreen;
+}
+
+.barra-de-nav ul {
+    font-size: 2rem;
+    text-align: center;
+    list-style-type: none;
+
+
+}
+
+.barra-de-nav ul li {
+    transition: box-shadow 0.3s ease;
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #66f;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.barra-de-nav ul li:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+    background-color: #4a4a4a;
+}
+
+
+.barra-de-nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.barra-de-nav ul li.active a {
+    cursor: not-allowed;
+}
+
+.title-container {
+    padding: 35px;
+    background-image: url(./img/foto-titulo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.title-container h1 {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 20px;
+
+}
+
+
+footer {
+    background-color: #222;
+    padding: 1rem;
+    color: white;
+}
+
+footer div {
+    float: right;
+}
+
+footer div ul {
+
+    list-style: none;
+    cursor: pointer;
+
+}
+
+footer div ul li:hover {
+    color: aqua;
+
+
+}
+
+footer div ul li a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
