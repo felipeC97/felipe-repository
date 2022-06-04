@@ -1,0 +1,43 @@
+footer {
+    background-color: #222;
+    padding: 1rem;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+   
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border: solid, white;
+
+        .icon-footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .blog-footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .media-icons{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        h4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        
+        
+    }
+    
+    
+}
